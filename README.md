@@ -1,9 +1,6 @@
 # 📊 Amazon Sales Performance Dashboard | Power BI Project
 
-[![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
-[![DAX](https://img.shields.io/badge/DAX-00589C?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/en-us/dax/)
-[![Data Visualization](https://img.shields.io/badge/Data_Visualization-0275D8?style=for-the-badge)](https://powerbi.microsoft.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+Power BI Desktop | DAX | Power Query | Data Visualization
 
 ---
 
@@ -18,8 +15,6 @@ By leveraging custom **DAX measures**, **Power Query ETL transformations**, and 
 ## 🖼️ Dashboard Preview
 
 ![Amazon Sales Performance Dashboard](assets/dashboard_screenshot.png)
-
-> *Note: Save your dashboard screenshot in the `assets/` folder as `dashboard_screenshot.png` to render it in GitHub.*
 
 ---
 
@@ -91,50 +86,3 @@ DIVIDE([Cancelled Orders], [Total Orders], 0)
 // Average Order Value (AOV)
 Average Order Value = 
 DIVIDE([Total Revenue], [Total Orders], 0)
-```
-
----
-
-## 🛠️ Tech Stack & Skills Used
-
-- **Business Intelligence Tool**: Power BI Desktop
-- **Data Modeling & Calculations**: Data Analysis Expressions (DAX)
-- **Data Transformation & Cleaning**: Power Query / M Code
-- **Data Source**: Amazon E-Commerce Sales Dataset
-- **Design & UX**: Professional KPI card layout, custom color palettes, dynamic tooltips, and interactive filtering
-
----
-
-## 📁 Repository Structure
-
-```gfm
-Amazon-Sales-PowerBI-Dashboard/
-│
-├── 📂 assets/
-│   └── dashboard_screenshot.png    # High-resolution dashboard preview image
-│
-├── 📂 data/
-│   └── Amazon_Sales_Report.csv     # Cleaned raw dataset (or sample data)
-│
-├── 📜 Amazon_Sales_Dashboard.pbix  # Main Power BI Desktop report file
-├── 📜 README.md                    # Project documentation
-└── 📜 LICENSE                      # License file
-```
-
----
-
-## 🚀 How to View & Run This Project
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/Amazon-Sales-PowerBI-Dashboard.git
-   ```
-2. **Install Power BI Desktop**: Download and install [Power BI Desktop](https://powerbi.microsoft.com/desktop/) if not already installed.
-3. **Open Project File**: Double-click `Amazon_Sales_Dashboard.pbix` to open the report.
-4. **Interact with Visuals**: Use the slicers on the left sidebar to filter data by date, category, status, or fulfillment type.
-
----
-
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for details.

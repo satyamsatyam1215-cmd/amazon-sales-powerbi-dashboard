@@ -12,12 +12,6 @@ By leveraging custom **DAX measures**, **Power Query ETL transformations**, and 
 
 ---
 
-## 🖼️ Dashboard Preview
-
-![Amazon Sales Performance Dashboard](assets/dashboard_screenshot.png)
-
----
-
 ## 📊 Key Performance Indicators (KPIs)
 
 | Metric | Value | Description |
